@@ -1,3 +1,4 @@
+
 let http = require("http"); //comando pra habilitar o protocolo HTTP no meu programa
 http.createServer(function(requisicao, resposta){
     resposta.end(mensagem);
@@ -8,7 +9,8 @@ http.createServer(function(requisicao, resposta){
 //listen cria a porta de acesso
 
 //código teste
-let mensagem = "Mensagem de teste: Servidor Funcionando?";
+let mensagem = "Mensagem de teste: O servidor está rodando dentro da minha máquina <h1\>Olá mundo<h1\>";
+console.log(mensagem);
 
 //pra acessar o servidor na própria máquina solicitamo na URL do navegador --> localhost: + a porta de acesso
 //nesse caso, nossa porta de acesso é 1010
